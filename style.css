@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Pacifico', cursive;
     background: #f7f7f9;
@@ -73,12 +72,3 @@ h2 {
     height: 90vh;
     margin: auto;
 }
-
-.btn {
-    display: none;
-}
-
-.full .btn {
-    display: flex;
-}
-
