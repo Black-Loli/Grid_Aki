@@ -2,9 +2,10 @@
   "name": "grid_aki",
   "version": "1.0.0",
   "description": "",
-  "main": "jquery.min.js",
+  "main": "js/jquery.min.js",
   "scripts": {
-    "min-js": "terser photo_magnification.js -o photo_magnification-terser.min.js --safari10 -c ecma=5,ie8=true -m"
+    "min-js": "terser js/photo_magnification.js -o src/js/photo_magnification-terser.min.js --safari10 -c ecma=5,ie8=true -m",
+    "js-babel": "babel js/photo_magnification.js --out-dir src/js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/Black-Loli/Grid_Aki#readme",
   "dependencies": {
-    "terser": "^5.15.1"
+    "terser": "^5.15.1",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
   }
 }
