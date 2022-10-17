@@ -1,0 +1,1 @@
+var gallery=document.querySelector("#gallery");gallery.querySelectorAll(".content").forEach(function(item){item.addEventListener("click",function(){item.classList.toggle("full");showSlides(slideIndex)})});console.log("\u0410\u043A\u0438\u0442\u0443\u0448\u043A\u0438");
